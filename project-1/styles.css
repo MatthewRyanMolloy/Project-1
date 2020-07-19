@@ -1,0 +1,242 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: dimgrey;
+}
+/* hero header from https://www.w3schools.com/howto/howto_css_hero_image.asp 
+    hero image size from https://www.freewebheaders.com/website-header-sizes/
+*/
+
+/* background image */
+
+/* image from https://unsplash.com/photos/KuODZUlkhM4 */
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/hero.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+/* header text */
+.hero-text {
+text-align: center;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: white;
+}
+
+/*  center navbar from https://www.w3schools.com/howto/howto_css_navbar_image.asp
+    transparent navbar from https://generatepress.com/forums/topic/how-do-i-make-navigation-bar-transparent/#:~:text=If%20you%20want%20the%20navigation,us%20know%20if%20this%20helps.&text=It%20is%20transparent%2C%20it%20just,it%20doesn't%20look%20transparent.
+    hover ubderline navbar from https://www.w3schools.com/howto/howto_css_navbar_border.asp  
+ */
+
+/* the navbar */
+.topnav {
+overflow: hidden;
+background-color: rgba(255,255,255,0);
+}
+
+/* navbar links */
+.topnav a {
+float: left;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+
+.topnav a:hover {
+border-bottom: solid teal;
+}
+
+/* profile image */
+.profile-img {
+  margin-top: 50px;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 3px solid white;
+  transition: all .5s;
+}
+.profile-img:hover {
+  transform: scale(1.2) rotate(-10deg);
+}
+
+.project-img {
+  margin-top: 50px;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 3px solid white;
+  transition: all .5s;
+}
+.project-img:hover {
+  transform: scale(1.2) rotate(10deg);
+}
+
+.blog-img {
+  margin-top: 50px;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 3px solid white;
+  transition: all .5s;
+}
+.blog-img:hover {
+  transform: scale(1.2) rotate(10deg);
+}
+
+/* centering main content from https://www.w3.org/Style/Examples/007/center.en.html 
+*/
+
+/* main body */
+h2 {
+color: coral;
+}
+
+.main-content{
+color: white;
+}
+
+.footer-content{
+color: white;
+}
+
+.first-content {
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.second-content {
+text-align: center;
+padding-top: 25px;
+padding-bottom: 25px;
+}
+.third-content {
+text-align: center;
+padding-top: 25px;
+padding-bottom: 25px;
+}
+
+.about {
+margin-left: auto;
+margin-right: auto;
+margin-top: 2em;
+padding: 20px 30px 30px;
+max-width: 500px;
+text-align: left;
+background: teal;
+border-radius: 8px;
+}
+
+.goals {
+margin-left: auto;
+margin-right: auto;
+margin-top: 1em;
+padding: 20px 30px 30px;
+max-width: 500px;
+text-align: left;
+background: teal;
+border-radius: 8px;
+}
+
+.master {
+  text-align: center;
+}
+
+ul.skills {
+padding: 0;
+text-align: center;
+}
+
+.skills li {
+border-radius: 4px;
+display: inline-block;
+background: coral;
+color: white;
+padding: 5px 5px;
+margin: 2px;
+}
+
+.skills li:nth-child(odd) {
+background: coral;
+}
+
+.second-content {
+margin-left: auto;
+margin-right: auto;
+padding: 20px 30px 30px;
+max-width: 500px;
+text-align: left;
+background: teal;
+border-radius: 8px;
+}
+
+.third-content {
+margin-left: auto;
+margin-right: auto;
+margin-top: 1em;
+margin-bottom: 16em;
+padding: 20px 30px 30px;
+max-width: 500px;
+text-align: left;
+background: teal;
+border-radius: 8px;
+}
+
+
+/* links */
+.links {
+color: white;
+text-decoration: none;
+}
+
+a:hover {
+color: coral;
+}
+
+
+/*footer content */
+.footer-content {
+background-color: teal;
+}
+
+.contact-footer {
+text-align: center;
+}
+
+.copyright {
+text-align: center;
+}
+
+.back-top {
+text-align: center;
+}
+
+/* images */
+.project-image {
+margin-top: 2%;
+margin-bottom: 2%;
+width: 350px;
+height: 350px;
+border-radius: 50%;
+border: 3px solid white;
+transition: all .5s;
+}
+
+.blog-image{
+margin-top: 2%;
+width: 350px;
+height: 350px;
+border-radius: 50%;
+border: 3px solid white;
+transition: all .5s;
+}
